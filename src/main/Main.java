@@ -170,7 +170,7 @@ public class Main {
             // Step 1: create a map which associates a empty list of articles to an article size.
             Map<Integer, List<Article>> articlesMap = new HashMap<>(9);
             for (int i = 1; i < 10; i++) {
-                articlesMap.put(i, new ArrayList<>());
+                articlesMap.put(i, new ArrayList<Article>());
             }
 
             // Step 2: init the map
